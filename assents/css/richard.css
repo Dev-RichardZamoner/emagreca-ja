@@ -1,0 +1,90 @@
+
+/* Seleciona o elemento body do HTML */
+body {
+  /* Define a propriedade background como um gradiente linear */
+  background-color: cornflowerblue;
+  
+  }
+/* Seleciona todos os elementos h1 e aplica o estilo */
+h1 {
+  color: pink; /* Define a cor do texto como rosa */
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sem serifa */
+}
+
+h2 {
+  color: pink; /* Define a cor do texto como rosa */
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sem serifa */
+}
+h3 {
+  color: pink; /* Define a cor do texto como rosa */
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sem serifa */
+}
+
+p {
+  color: pink; /* Define a cor do texto como rosa */
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sem serifa */
+}
+
+span {
+  color: pink; /* Define a cor do texto como rosa */
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sem serifa */
+}
+
+h5 {
+  color: black; /* Define a cor do texto como rosa */
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, sans-serif; /* Define a fonte como Arial ou sem serifa */
+}
+
+/* Seleciona todos os elementos com a classe botao e aplica o estilo */
+.botao {
+  background-color: pink; /* Define a cor de fundo como verde */
+  border: 50%; /* Remove a borda */
+  padding: 15px 25px; /* Define o espaçamento interno */
+  cursor: pointer; /* Muda o cursor para uma mão */
+  font-size: 20px; /* Define o tamanho da fonte */
+  display: block; /* Faz o elemento ocupar toda a largura */
+  margin: 0 auto; /* Centraliza o elemento */
+}
+
+.uil {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+@media (max-width: 600px) {
+  .uil {
+    font-size: 14px;
+  }
+}
+ul {
+  list-style: none;
+}
+.video-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+
